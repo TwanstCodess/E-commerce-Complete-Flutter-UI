@@ -15,11 +15,10 @@
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
-#.vscode/
 
+temp_auto_push.bat
 # Flutter/Dart/Pub related
 **/doc/api/
 .dart_tool/
@@ -41,3 +40,5 @@ app.*.map.json
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+.gitignore
+branch_structure.json
